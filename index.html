@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Prática</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="visor" disabled>
+        <div class="botoes">
+            <button onclick="limpar()">C</button>
+            <button onclick="Adicionar('/')">/</button>
+            <button onclick="Adicionar('*')">*</button>
+            <button onclick="Adicionar('-')">-</button>
+
+            <button onclick="Adicionar('7')">7</button>
+            <button onclick="Adicionar('8')">8</button>
+            <button onclick="Adicionar('9')">9</button>
+            <button onclick="Adicionar('+')">+</button>
+
+            <button onclick="Adicionar('4')">4</button>
+            <button onclick="Adicionar('5')">5</button>
+            <button onclick="Adicionar('6')">6</button>
+            <button onclick="calcular()">=</button>
+
+            <button onclick="Adicionar('1')">1</button>
+            <button onclick="Adicionar('2')">2</button>
+            <button onclick="Adicionar('3')">3</button>
+            <button onclick="Adicionar('0')">0</button>
+
+            <button onclick="Adicionar('**')">**</button>
+            <button onclick="Adicionar('%')">%</button>
+            <button onclick="Adicionar('(')">(</button>
+            <button onclick="Adicionar(')')">)</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
